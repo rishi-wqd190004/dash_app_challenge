@@ -1,7 +1,7 @@
 # Fraud in an area?
 
 ## Overview:
-![imgs/cc_overview.png]
+!(Overview)[![imgs/cc_overview.png](https://github.com/rishi-wqd190004/dash_app_challenge/blob/main/imgs/cc_overview.png)]
 - Credit card transactions dashboard
 
     - The top half talks at world map and number of frauds in each category.
