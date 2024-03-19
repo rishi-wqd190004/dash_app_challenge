@@ -208,7 +208,7 @@ def predict_fraud_callback(n_clicks, cc_num, merchant, category, amt, gender, ci
 
 
 def predict_fraud(dataframe):
-    with open('/Users/rishinigam/kaggle_competitions/dash_app_challenge/src/pipeline.joblib', 'rb') as f:
+    with open('pipeline.joblib', 'rb') as f:
         loaded_pipeline = load('pipeline.joblib')
     dataframe = dataframe[['merchant','category','amt','gender','job']]
     print(dataframe)
