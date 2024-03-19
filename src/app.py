@@ -13,7 +13,7 @@ from opencage.geocoder import OpenCageGeocode
 df = pd.read_csv("pos_neg_dummy_data.csv")
 
 # Initialize the OpenCage Geocoder
-geocoder = OpenCageGeocode("OPENCAGEGEOCODE")
+geocoder = OpenCageGeocode("02d943c6618e41329313406447a26533")
 
 # Initialize the Dash app
 app = dash.Dash(
